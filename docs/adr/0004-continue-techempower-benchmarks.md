@@ -4,7 +4,7 @@
 Proposed. The license review is done (BSD-3-Clause, see below); awaiting the maintainer's decision to start the import.
 
 ## Context
-TechEmpower officially sunset the project on 2026-03-24 ([FrameworkBenchmarks#10932](https://github.com/TechEmpower/FrameworkBenchmarks/issues/10932)) and archived the repo. FrameworkBenchmarks, TFBVerifier, TFBDatabases, TFBToolset and tfb-status are BSD-3-Clause (© TechEmpower, Inc.). benchmark-tool is already derived from its toolset, and `catalog-web-frameworks` exists for web frameworks.
+TechEmpower officially sunset the project on 2026-03-24 ([FrameworkBenchmarks#10932](https://github.com/TechEmpower/FrameworkBenchmarks/issues/10932)) and archived the repo. FrameworkBenchmarks, TFBVerifier, TFBDatabases, TFBToolset and tfb-status are BSD-3-Clause (© TechEmpower, Inc.). tools-benchmark is already derived from its toolset, and `catalog-web-frameworks` exists for web frameworks.
 
 ## Decision (proposed)
 - Import the framework implementations, with their history, directly from `TechEmpower/FrameworkBenchmarks` into `catalog-web-frameworks`, and adapt them to the catalog contract. The old `BenchCommons/FrameworkBenchmarks` fork was removed; the archived upstream is the source.
