@@ -1,7 +1,7 @@
 # 0001 — Repository naming by role
 
 ## Status
-Accepted (2026-10-12). The naming of tools is superseded by [ADR 0005](0005-tools-prefix.md).
+Accepted (2026-10-12). The naming of tools is superseded by [ADR 0005](0005-tools-prefix.md). The site rule is amended by [ADR 0006](0006-website-prefix.md).
 
 ## Context
 The org grew from one benchmark (static site generators) to several families. Names like `ssg-frameworks` did not say what role a repo plays, and new repos (algorithms, web frameworks, datasets) needed a convention.
