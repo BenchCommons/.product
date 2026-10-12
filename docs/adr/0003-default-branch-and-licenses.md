@@ -4,9 +4,9 @@
 Proposed. Awaiting the maintainer's decision.
 
 ## Context
-Default branches are mixed: `master` in benchmark-tool, catalog-algorithms, catalog-ssg, dataset-names and perfratio; `main` in the rest.
+Default branches are mixed: `master` in tools-benchmark, catalog-algorithms, catalog-ssg, dataset-names and perfratio; `main` in the rest.
 
-Licenses are also mixed: MIT (website, catalog-algorithms), Apache-2.0 (perfratio, dataset-names), Unlicense (catalog-ssg), and TechEmpower's BSD-3 (benchmark-tool; GitHub reports NOASSERTION). Other repos have none: .github, perfratio-website, catalog-web-frameworks, dataset-commons and dataset-tool.
+Licenses are also mixed: MIT (website, catalog-algorithms), Apache-2.0 (perfratio, dataset-names), Unlicense (catalog-ssg), and TechEmpower's BSD-3 (tools-benchmark; GitHub reports NOASSERTION). Other repos have none: .github, perfratio-website, catalog-web-frameworks, dataset-commons and tools-dataset.
 
 ## Options
 - Branch: standardize on `main`. GitHub retargets open PRs and redirects the old name, but local clones, CI filters and docs must be updated. The other option is to keep each repo as it is.
